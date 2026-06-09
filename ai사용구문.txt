@@ -1,0 +1,12 @@
+어드민 root 
+비밀번호 '' 로 수정후 어드민페이지에서 기사 작성시
+
+Sorry, a problem occurred
+
+The site's owners have been informed. Please try again later.
+에러가 발생
+
+해결책
+a구문에서 
+$error 쪽 'author' => ' '이거 포함
+'member'     => '', 추가 완료 (주석 추가)
